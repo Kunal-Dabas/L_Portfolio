@@ -7,6 +7,9 @@ import Node from '../assets/node.png';
 import GitHub from '../assets/github.png';
 import Tailwind from '../assets/tailwind.png';
 import Mongo from '../assets/mongo.png';
+import Django from '../assets/Django.png';
+import Postgresql from '../assets/Postgresql.png';
+import ExpressJs from '../assets/ExpressJs.png';
 
 const Skills = () => {
   return (
@@ -33,7 +36,7 @@ const Skills = () => {
               </div>
               <div className='shadow-md shadow-[#040c16] hover:scale-125 duration-500'>
                   <img className='w-20 mx-auto' src={ReactImg} alt="ReactImg icon" />
-                  <p className='my-4'>REACT</p>
+                  <p className='my-4'>REACT JS</p>
               </div>
               <div className='shadow-md shadow-[#040c16] hover:scale-125 duration-500'>
                   <img className='w-20 mx-auto' src={GitHub} alt="GitHub icon" />
@@ -50,6 +53,18 @@ const Skills = () => {
               <div className='shadow-md shadow-[#040c16] hover:scale-125 duration-500'>
                   <img className='w-20 mx-auto' src={Tailwind} alt="Tailwind icon" />
                   <p className='my-4'>TAILWIND</p>
+              </div>
+              <div className='shadow-md shadow-[#040c16] hover:scale-125 duration-500'>
+                  <img className='w-20 mx-auto' src={Django} alt="Django Rest Framework icon" />
+                  <p className='my-4'>DJANGO REST FRAMEWORK</p>
+              </div>
+              <div className='shadow-md shadow-[#040c16] hover:scale-125 duration-500'>
+                  <img className='w-20 mx-auto' src={Postgresql} alt="Postgresql icon" />
+                  <p className='my-4'>POSTGRESQL</p>
+              </div>
+              <div className='shadow-md shadow-[#040c16] hover:scale-125 duration-500'>
+                  <img className='w-20 mx-auto' src={ExpressJs} alt="ExpressJs icon" />
+                  <p className='my-4'>EXPRESS JS</p>
               </div>
           </div>
       </div>
