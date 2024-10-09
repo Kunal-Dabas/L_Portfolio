@@ -21,6 +21,26 @@ const Work = () => {
         <div  className="grid sm:grid-cols-2 md:grid-cols-3 gap-4"> 
           
           {/* Item 1 */}
+          <div style={{backgroundImage:`url(${SocialMedia})`}} className="shadow-lg shadow-[#040c16] group container rounded-md 
+              flex justify-center text-center items-center mx-auto content-div "> 
+              {/* content-div is a special name to add custom css : erfer : index.css */}
+      
+            <div className="opacity-0 group-hover:opacity-100" >
+              <span className="text-2xl font bold text-white tracking-wider ">
+                Social Media
+              </span>
+              <div className="pt-8 ">
+                <a href="https://github.com/Kunal-Dabas/SocialMedia" target="_blank" title="Github Repo"  rel="noreferrer">
+                  <button className="text-center rounded-lg px-4 py-3 m-2
+                       bg-white text-gray-700 font-bold text-lg hover:bg-gray-400 hover:text-white duration-300">Link To Website</button>
+                </a>
+              </div>
+
+            </div>
+          
+          </div>
+          
+          {/* Item 2 */}
           <div style={{backgroundImage:`url(${UAS_dtu})`}} className="shadow-lg shadow-[#040c16] group container rounded-md 
               flex justify-center text-center items-center mx-auto content-div "> 
               {/* content-div is a special name to add custom css : erfer : index.css */}
@@ -33,15 +53,15 @@ const Work = () => {
               <div className="pt-8 ">
                 <a href="https://uasdtu.com/" target="_blank" title="Hosted WebSite"  rel="noreferrer">
                   <button className="text-center rounded-lg px-4 py-3 m-2
-                       bg-white text-gray-700 font-bold text-lg hover:bg-gray-400 hover:text-white duration-300">Link To Project</button>
+                       bg-white text-gray-700 font-bold text-lg hover:bg-gray-400 hover:text-white duration-300">Link To Website</button>
                 </a>
               </div>
 
             </div>
           
           </div>
-          
-          {/* Item 2 */}
+
+
           <div style={{backgroundImage:`url(${SUAS_GUI})`}} className="shadow-lg shadow-[#040c16] group container rounded-md 
               flex justify-center text-center items-center mx-auto content-div ">  {/* content-div is a special name to add custom css : erfer : index.css */}
       
@@ -104,24 +124,7 @@ const Work = () => {
           </div>
 
           {/* Item 5 */}
-          <div style={{backgroundImage:`url(${SocialMedia})`}} className="shadow-lg shadow-[#040c16] group container rounded-md 
-              flex justify-center text-center items-center mx-auto content-div "> 
-              {/* content-div is a special name to add custom css : erfer : index.css */}
-      
-            <div className="opacity-0 group-hover:opacity-100" >
-              <span className="text-2xl font bold text-white tracking-wider ">
-                Social Media
-              </span>
-              <div className="pt-8 ">
-                <a href="https://github.com/Kunal-Dabas/SocialMedia" target="_blank" title="Github Repo"  rel="noreferrer">
-                  <button className="text-center rounded-lg px-4 py-3 m-2
-                       bg-white text-gray-700 font-bold text-lg hover:bg-gray-400 hover:text-white duration-300">Link To Project</button>
-                </a>
-              </div>
-
-            </div>
           
-          </div>
         </div>
 
       </div>
